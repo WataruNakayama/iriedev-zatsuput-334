@@ -35,10 +35,6 @@ export default {
     return {
       is_button_disabled: false
     }
-  },
-  mounted() {
-    const audio = new Audio(require('../static/chin.mp3'))
-    audio.play()
   }
 }
 </script>
