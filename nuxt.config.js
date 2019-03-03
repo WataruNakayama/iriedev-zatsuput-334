@@ -11,7 +11,29 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: pkg.description }
+      { hid: 'description', name: 'description', content: pkg.description },
+      { hid: 'og:site_name', property: 'og:site_name', content: 'なんでや！阪神関係ないやろ！ | 入江開発室' },
+      { hid: 'og:type', property: 'og:type', content: 'website' },
+      {
+        hid: 'og:url',
+        property: 'og:url',
+        content: 'https://gallant-bell-1ada35.netlify.com'
+      },
+      {
+        hid: 'og:title',
+        property: 'og:title',
+        content: 'なんでや！阪神関係ないやろ！ | 入江開発室'
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content: 'Netlify + Nuxt + Bulma の雑プットです。'
+      },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: 'https://gallant-bell-1ada35.netlify.com/zozo-marine-stadium.jpg'
+      }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
