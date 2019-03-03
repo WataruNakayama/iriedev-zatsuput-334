@@ -1,0 +1,19 @@
+$mplus1fonts := {
+  '900': { font: 'black' },
+  '800': { font: 'heavy' },
+  '700': { font: 'bold' },
+  '600': { font: 'bold' },
+  '500': { font: 'medium' },
+  '400': { font: 'regular' },
+  '300': { font: 'light' },
+  '200': { font: 'light' },
+  '100': { font: 'thin' },
+}
+$font-family = 'M+1p'
+for $weight, $font in $mplus1fonts
+  @font-face
+    font-family: $font-family
+    src: url('/fonts/mplus-1p-' + $font + '.ttf') format('truetype')
+    font-weight: $weight
+*
+  font-family: $font-family
