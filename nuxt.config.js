@@ -69,11 +69,12 @@ module.exports = {
           loader: 'eslint-loader',
           exclude: /(node_modules)/
         })
-        config.module.rules.push({
-          test: /\.mp3$/,
-          loader: 'url-loader'
-        })
       }
+      config.module.rules.push({
+        test: /\.(ogg|mp3|wav|mpe?g)$/i,
+        use: 'file-loader',
+        exclude: /(node_modules)/
+      })
     }
   }
 }
