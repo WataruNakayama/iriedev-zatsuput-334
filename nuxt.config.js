@@ -11,8 +11,8 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: pkg.description },
-      { hid: 'og:site_name', property: 'og:site_name', content: 'なんでや！阪神関係ないやろ！ | 入江開発室' },
+      { hid: 'description', name: 'description', content: '2005年日本シリーズ@334 | 入江開発室' },
+      { hid: 'og:site_name', property: 'og:site_name', content: '2005年日本シリース@334 | 入江開発室' },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       {
         hid: 'og:url',
@@ -22,7 +22,7 @@ module.exports = {
       {
         hid: 'og:title',
         property: 'og:title',
-        content: 'なんでや！阪神関係ないやろ！ | 入江開発室'
+        content: '2005年日本シリーズを振り替えってみましょう　| 入江開発室'
       },
       {
         hid: 'og:description',
